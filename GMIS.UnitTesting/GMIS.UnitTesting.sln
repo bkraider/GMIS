@@ -7,6 +7,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GMIS.UnitTests", "GMIS.Unit
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GMIS.Business", "GMIS.Business\GMIS.Business.vbproj", "{7F394BB9-44F2-4415-9EED-8ACCFCE05D1A}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GMIS.Business.Fakes", "GMIS.Business.Fakes\GMIS.Business.Fakes.vbproj", "{0164D739-90F0-4FA0-B8C1-ED3F5EFA3AE3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GMIS.FakeTests", "GMIS.FakeTests\GMIS.FakeTests.vbproj", "{E392260B-C7D6-4773-831D-C97CCCE10D05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7F394BB9-44F2-4415-9EED-8ACCFCE05D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F394BB9-44F2-4415-9EED-8ACCFCE05D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F394BB9-44F2-4415-9EED-8ACCFCE05D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0164D739-90F0-4FA0-B8C1-ED3F5EFA3AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0164D739-90F0-4FA0-B8C1-ED3F5EFA3AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0164D739-90F0-4FA0-B8C1-ED3F5EFA3AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0164D739-90F0-4FA0-B8C1-ED3F5EFA3AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E392260B-C7D6-4773-831D-C97CCCE10D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E392260B-C7D6-4773-831D-C97CCCE10D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E392260B-C7D6-4773-831D-C97CCCE10D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E392260B-C7D6-4773-831D-C97CCCE10D05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

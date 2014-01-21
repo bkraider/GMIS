@@ -84,5 +84,11 @@ Public Class CalculatorTestFixture
         Assert.AreEqual(expected, actual, "Did not get the right value from the divide method")
     End Sub
 
+    <TestMethod> _
+    <ExpectedException(GetType(ArgumentOutOfRangeException))> _
+    Public Sub DivideByZeroThrowsException()
+        SystemUnderTest.Divide(6, 0)
+    End Sub
+
 
 End Class
